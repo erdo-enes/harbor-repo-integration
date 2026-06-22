@@ -8,6 +8,10 @@ metadata:
   labels:
     app: jenkins-kaniko-harbor-test
 spec:
+  hostAliases:
+    - ip: "192.168.0.50"
+      hostnames:
+        - "harbor.k8s-enes.local"
   restartPolicy: Never
   containers:
     - name: kaniko
