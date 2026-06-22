@@ -31,7 +31,7 @@ spec:
 
   environment {
     HARBOR_REGISTRY = "harbor.k8s-enes.local"
-    HARBOR_PROJECT  = "cı-cd-test"
+    HARBOR_PROJECT  = "ci-cd-test"
     IMAGE_NAME      = "hello-jenkins"
     IMAGE_TAG       = "${env.BUILD_NUMBER}"
   }
