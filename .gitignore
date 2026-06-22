@@ -1,0 +1,16 @@
+.idea/
+.vscode/
+*.iml
+
+# Build artifacts
+*.tar
+*.tgz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jenkins
+builds/
+workspace/
+*.log
